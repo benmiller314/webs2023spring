@@ -1,0 +1,114 @@
+body {
+    background-color: #2a2830;    /* navy */
+    color: #FFFFFF;    /* text color White */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0 0 4em;
+  }  
+
+  h1 {
+    font-size: clamp(3 rem, 1 rem + 10vw, 7rem); /*change Hi, Im Ariana here*/
+    font-weight: normal;   
+    margin-bottom:2em;
+    margin-top: 2em;
+  }
+
+  .big {
+    font-size: clamp(3.5rem, 1rem + 10vw, 4rem);
+    margin-bottom: 0.5em;
+  }
+
+  .content a {
+  color: #d8d8d8;
+  }
+  p {
+    text-align: left; /*Welcome to...change size here*/
+    font-size: 1.5em;
+  }
+  
+  img {
+    max-width: 100vw;
+    max-height: 100vw;
+  }
+.menu {
+width: 100vw;
+background-color: #d8d8d8;
+color:#2a2830;
+display: flex;
+justify-content: space-between;
+align-items: flex-end;
+font-size: 1.2em;
+padding: 4em 0 0;
+/* these rules effect social media icons  nav */
+
+}
+  .menu ul {
+    min-height: 3em;
+    color: #2a2830;
+    display: flex;
+    gap: 3em;
+    justify-content: space-around;
+    max-width: 50em;
+    list-style-type: none;
+    margin: 0;
+  }
+
+  .menu a:hover {
+    text-decoration: none;
+    color: #4e21d5;
+  }
+
+  .menu ul li {
+  padding: 60px 0 10px;
+  }
+
+  .menu a {
+    color: black;
+    text-decoration:none;
+  }
+
+  .page-container {
+    padding: 0 1em;
+    max-width: 60rem;
+    margin: 0 auto;
+  
+  }
+
+  .page-container img {
+      max-width: 50vw;
+      max-height: clamp(100px,250px, 30vw);
+      margin: 2em;
+  }
+
+  .content {
+    margin: 0 auto;
+  }
+
+  @media(min-width: 40em){
+    header {
+      padding: 7rem 0;
+    }
+  }
+
+  @media (min-width: 40em) {
+    .content {
+    display: flex;
+    gap: 3em;
+    align-items: center;
+    justify-content: center;
+    }
+    .gallery {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+  .gallery{
+    display:grid;
+    gap: 1em;
+    padding: 0 1em;
+  }
+
+
+  .project{
+    border: #2a2830 1px solid;
+  }

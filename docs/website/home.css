@@ -157,7 +157,7 @@ input[type=submit]:hover {
   padding: 10px;
 }
 
-/* Create two columns that float next to eachother */
+/* Create two columns that float next to each other */
 .column {
   float: left;
   width: 50%;
@@ -178,4 +178,33 @@ input[type=submit]:hover {
     width: 100%;
     margin-top: 0;
   }
+}
+
+/* Ben notes: To prevent font-awesome icons from turning blue when they're links, override the default style for 'a' within the context where font-awesome appears... */
+.section a {
+  color: #333;
+}
+
+/* ... but do change something to indicate they're clickable links */
+.section a:hover, .section a:focus {
+  text-shadow: #6f807b 1px 1px 1px;
+}
+
+/* Ben notes: utility classes for rows and columns
+   using flexbox instead of float */
+.flex-row {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  gap: 0 1em;
+}
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+ul.flex-row {
+  list-style-type: none;
+  padding-inline-start: 0;
 }

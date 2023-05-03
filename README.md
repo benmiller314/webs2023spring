@@ -38,7 +38,7 @@ To target (but not guarantee) a grade above a B, the best projects for this unit
   -	Use many images, laid out in a clear pattern (e.g. grid, alternating left/right)
   -	Optimize image filetypes, resolutions, and file sizes for faster loading
   -	Make or modify your own multimedia content (e.g. graphics, audio, video)
-  - Have a system to display other sorts of media files from the browser (docs, pdfs, etc)
+  - Have a system to display other sorts of media files from the browser (docs, pdfs, etc) <!-- FOR NEXT TIME: cut this, what kind of system were we even talking about -->
 
 * Dynamism
   -	Use responsive design (e.g. <code>@media</code> queries, <code>flex-wrap</code>, <code>auto-fill</code>, etc) to dynamically resize elements based on viewport width
@@ -49,7 +49,7 @@ To target (but not guarantee) a grade above a B, the best projects for this unit
 * Coding
   - Use Flexbox or Grid (or Float) layouts
   -	Use advanced navigation, e.g. drop-down menu, tabs, or sticky nav bar
-  -	Condense your CSS stylesheet to the best of your ability
+  -	Condense your CSS stylesheet to the best of your ability <!-- FOR NEXT TIME: Use classes shared across multiple elements to minimize repetition in your CSS -->
   -	Use Jekyll (built into GitHub Pages; see [Resources page](https://benmiller314.github.io/cdm2022spring/resources#web-frameworks)) to minimize repetition in your HTML through templates and variables
   -	Use a web framework to build your website (angular, react, etc. but also bootstrap, skeleton, etc, depending on your level)
   -	Use JavaScript for anything at all
